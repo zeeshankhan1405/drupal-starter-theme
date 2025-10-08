@@ -1,0 +1,9 @@
+{
+  "name": "drupal/my_boilerplate",
+  "type": "drupal-custom-theme",
+  "version": "dev-main",
+  "description": "My custom boilerplate theme for Drupal.",
+  "require": {
+    "drupal/core": "^11"
+  }
+}

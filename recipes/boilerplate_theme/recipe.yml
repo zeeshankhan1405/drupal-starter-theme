@@ -1,0 +1,13 @@
+name: "Drupal Theme Starter"
+description: "A Drupal 11 boilerplate theme recipe that installs required modules."
+type: recipe
+install:
+  - menu_link_attributes
+  - link_attributes
+  - my_boilerplate
+config:
+  actions:
+    system.theme:
+      simple_config_update:
+        default: my_boilerplate
+        admin: claro

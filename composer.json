@@ -1,0 +1,21 @@
+{
+  "name": "myorg/drupal-theme-starter",
+  "description": "A Drupal 11 boilerplate theme recipe",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.3",
+    "drupal/core": "^11",
+    "drupal/menu_link_attributes": "^1.5",
+    "drupal/link_attributes": "^2.0",
+    "drupal/my_boilerplate": "dev-main"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/themes/custom/{$name}": ["type:drupal-theme"],
+      "web/modules/contrib/{$name}": ["type:drupal-module"]
+    }
+  }
+}
