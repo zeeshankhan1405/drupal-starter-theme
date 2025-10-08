@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
+  <body{{ attributes }}>
+    <header>
+      {% if page.primary_menu %}
+        <nav class="primary-menu">
+          {{ page.primary_menu }}
+        </nav>
+      {% endif %}
+    </header>
+    <main role="main">
+      {{ page.content }}
+    </main>
+    <footer>
+      <p>&copy; {{ "now"|date("Y") }} My Boilerplate Theme</p>
+    </footer>
+    <js-bottom-placeholder token="{{ placeholder_token }}">
+  </body>
+</html>

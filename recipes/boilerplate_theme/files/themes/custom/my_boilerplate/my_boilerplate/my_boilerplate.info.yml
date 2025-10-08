@@ -1,0 +1,17 @@
+name: My Boilerplate Theme
+type: theme
+description: "A reusable boilerplate theme for Drupal 11 with menu and link attribute support."
+core_version_requirement: ^11
+package: Custom
+base theme: false
+dependencies:
+  - menu_link_attributes
+  - link_attributes
+libraries:
+  - my_boilerplate/global-styling
+regions:
+  header: Header
+  primary_menu: "Primary menu"
+  content: Content
+  sidebar_first: "Sidebar"
+  footer: Footer
