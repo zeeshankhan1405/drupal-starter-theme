@@ -5,15 +5,5 @@
   "description": "My custom boilerplate theme for Drupal.",
   "require": {
     "drupal/core": "^11"
-  },
-  "autoload": {
-    "psr-4": {
-      "Drupal\\my_boilerplate\\": "src/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-main": "1.x-dev"
-    }
   }
 }
