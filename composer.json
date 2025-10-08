@@ -9,7 +9,8 @@
     "php": ">=8.3",
     "drupal/core": "^11",
     "drupal/menu_link_attributes": "^1.5",
-    "drupal/link_attributes": "^2.0"
+    "drupal/link_attributes": "^2.0",
+    "drupal/my_boilerplate": "dev-main"
   },
   "extra": {
     "installer-paths": {
